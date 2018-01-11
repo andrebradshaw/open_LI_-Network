@@ -1,0 +1,1 @@
+javascript:(function()%7Bvar res %3D document.getElementsByClassName("search-result__info")%3Bfor (i%3D0%3Bi<res.length%3B i%2B%2B)%7Bwindow.open(res%5Bi%5D.getElementsByTagName("a")%5B0%5D.href)%3B%7D%7D)()
